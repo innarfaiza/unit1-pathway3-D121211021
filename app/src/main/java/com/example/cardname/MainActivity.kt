@@ -62,7 +62,7 @@ fun CardName() {
                 horizontalAlignment = Alignment.CenterHorizontally
 
             ) {
-                val image = painterResource(id = R.drawable.android_logo)
+                val image = painterResource(id = R.drawable.pas_foto)
                 Image(
                     painter = image,
                     contentDescription = null,
@@ -87,7 +87,7 @@ fun CardName() {
                     .padding(top =100.dp),
             ) {
                 Row {
-                    val PhoneIcons = painterResource(id = R.drawable.ic_phone)
+                    val PhoneIcons = painterResource(id = R.drawable.phone)
                     Icon(
                         painter = PhoneIcons,
                         contentDescription = "Phone",
